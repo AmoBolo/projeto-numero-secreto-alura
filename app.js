@@ -17,7 +17,7 @@ let tentativas = 1;
 
     function exibirMensagemInicial(){
         exibirTextoNaTela("h1","JOGO DO NÚMERO SECRETO");
-        exibirTextoNaTela("p","Escolha um número de 1 a 100");
+        exibirTextoNaTela("p",´Escolha um número de 1 a ${numeroLimite}´);
     }
 
     exibirMensagemInicial();
@@ -69,3 +69,4 @@ function limparCampo(){
         document.getElementById("reiniciar").setAttribute("disabled", true);
 
     }
+
